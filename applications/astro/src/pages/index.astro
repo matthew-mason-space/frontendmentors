@@ -1,0 +1,43 @@
+---
+const pages = [
+  {
+    name: "Advice Generator App",
+    link: "advice-generator-app/",
+  },
+  {
+    name: "Article Preview Component",
+    link: "article-preview-component",
+  },
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width" name="viewport" />
+    <meta content={Astro.generator} name="generator" />
+    <title>Frontend Mentors</title>
+  </head>
+  <body>
+    <main>
+      {
+        pages.map((page) => {
+          return <a href={`${page.link}/`}>{page.name}</a>;
+        })
+      }
+    </main>
+  </body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+</style>

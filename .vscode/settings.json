@@ -1,0 +1,56 @@
+{
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": false,
+      "strings": false
+    }
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.astro": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.mvn": true,
+    "**/.svn": true,
+    "**/Thumbs.db": true,
+    "**/dist": true,
+    "**/mvnw": true,
+    "**/mvnw.cmd": true,
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true,
+    "**/target": true
+  },
+  "java.configuration.updateBuildConfiguration": "automatic"
+}
